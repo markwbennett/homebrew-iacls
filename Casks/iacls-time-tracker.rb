@@ -7,7 +7,7 @@ cask "iacls-time-tracker" do
   desc "macOS time tracking GUI application with floating button interface"
   homepage "https://github.com/markwbennett/TimeTrackButton"
 
-  # Install the GUI app bundle
+  # Install the self-contained GUI app bundle
   app "IACLS Time Tracker.app"
 
   caveats <<~EOS
