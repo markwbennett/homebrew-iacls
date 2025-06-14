@@ -1,14 +1,14 @@
 cask "iacls-time-tracker" do
   version "1.0.0"
-  sha256 :no_check  # Will be calculated automatically when you create a release
+  sha256 :no_check
 
-  url "https://github.com/markwbennett/TimeTrackButton/releases/download/v#{version}/IACLS_Time_Tracker_macOS.zip"
+  url "https://github.com/markwbennett/TimeTrackButton/archive/refs/heads/main.zip"
   name "IACLS Time Tracker"
   desc "macOS time tracking GUI application with floating button interface"
   homepage "https://github.com/markwbennett/TimeTrackButton"
 
   # Only install the GUI app bundle
-  app "IACLS Time Tracker.app"
+  app "TimeTrackButton-main/IACLS Time Tracker.app"
 
   caveats <<~EOS
     IACLS Time Tracker GUI app has been installed.
